@@ -1,8 +1,15 @@
 ﻿Gameusing System;
 
-public class Class1
+public class GameBoard
 {
-	public Class1()
+
+	public GameBoard()
 	{
+		
+
+	}
+	public Move GetValidMoves()
+	{
+
 	}
 }
