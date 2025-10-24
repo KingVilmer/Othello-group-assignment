@@ -2,6 +2,7 @@
 
 public class Move
 {
+	private Diskcolor movr
 	public Move()
 	{
 	}
