@@ -2,13 +2,13 @@
 
 public class GameBoard
 {
-
-	public GameBoard()
+	public Diskcolor[,] board = new Diskcolor[8,8];
+    public GameBoard()
 	{
 		
 
 	}
-	public Move GetValidMoves()
+	public list<Move> GetValidMoves()
 	{
 
 	}
