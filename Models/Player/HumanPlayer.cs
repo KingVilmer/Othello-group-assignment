@@ -1,9 +1,15 @@
 ﻿using System;
 
-public class Class1
+public class HumanPlayer : Player
 {
-	public Class1()
-	{
-		Console.WriteLine("Hello");
-	}
+    public string Name { get; set; }
+
+    public HumanPlayer(string name)
+    { this.Name = name; }
+
+
+    public override void NextMove()
+    {
+
+    }
 }

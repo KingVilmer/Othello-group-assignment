@@ -1,8 +1,10 @@
 ﻿using System;
 
-public class Player
+public abstract class Player
 {
-	public Class1()
-	{
-	}
+    internal enum DiskColor { White, Black }
+
+    DiskColor diskColor { get; set; }
+
+    public abstract void NextMove();
 }
