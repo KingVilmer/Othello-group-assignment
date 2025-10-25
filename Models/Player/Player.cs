@@ -6,5 +6,5 @@ public abstract class Player
 
     DiskColor diskColor { get; set; }
 
-    public abstract void NextMove();
+    public abstract void RequestMove();
 }
